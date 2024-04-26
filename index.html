@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no"
+    />
+    <title>جراج بلس</title>
+    <style>
+      :root {
+        --primary-color: #8e2de2;
+        --secondary-color: #4a00e0;
+        --text-color: #000;
+      }
+    </style>
+
+    <link rel="shortcut icon" type="img/png" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="header">
+          <div class="logo">
+            <img src="images/logo.svg" />
+          </div>
+          <nav class="header-nav">
+            <ul>
+              <li>
+                <a href="https://dev.garageplus.sa/privacy"> سياسة الخصوصية </a>
+              </li>
+              <li>
+                <a href="#!"> حذف الحساب </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="lang-content">
+            <a role="button" class="lang-btn">
+              <img src="images/lang/ar.svg" class="flag" />
+              <span class="text"> العربية </span>
+              <i class="fa-sharp fa-regular fa-angle-down"></i>
+            </a>
+            <div class="lang-list">
+              <a href="index.html" class="lang-item">
+                <img src="images/lang/ar.svg" />
+                العربية
+              </a>
+              <a href="index-en.html" class="lang-item">
+                <img src="images/lang/en.svg" />
+                الإنجليزية
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <main>
+      <div class="container">
+        <div class="main-content">
+          <h1 class="main-title">عنوان تجريبى للصفحه</h1>
+          <p class="main-text">
+            هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد هذا
+            النص من مولد النص العربى، حيث يمكنك أن تولد مثل هذا النص أو العديد
+            من النصوص الأخرى إضافة إلى زيادة عدد الحروف التى يولدها التطبيق.
+          </p>
+          <div class="main-form">
+            <form>
+              <div class="form-group">
+                <input
+                  type="text"
+                  placeholder="البريد الالكترونى أو رقم الجوال"
+                  class="form-control"
+                />
+              </div>
+              <button
+                class="main-btn"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#removeModal"
+              >
+                تأكيد
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Start Footer -->
+    <footer>
+      <p class="copyrights">جميع الحقوق محفوظة © جراج بلس 2024</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Remove Modal -->
+    <div class="modal fade" id="removeModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="modal-close" data-bs-dismiss="modal">
+              <i class="fa-regular fa-xmark"></i>
+            </button>
+          </div>
+          <div class="modal-body">
+            <span class="alert-icon remove-icon">
+              <i class="fa-light fa-trash-can"></i>
+            </span>
+            <h2 class="alert-title">تأكيد حذف الحساب</h2>
+            <p class="remove-description">
+              جميع البيانات والسجلات المرتبطه بالحساب سيتم فقدها
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="modal-btn main-btn">
+              تأكيد حذف الحساب
+            </button>
+            <button
+              type="button"
+              class="modal-btn sec-btn"
+              data-bs-dismiss="modal"
+            >
+              رجوع
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Remove Modal -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
